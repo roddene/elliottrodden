@@ -11,16 +11,20 @@ function Contact() {
 
         <p>
             <div className="contact-box">
+                <div id = "linkedin">
                 <a href="https://www.linkedin.com/in/elliott-rodden">
-                    <Image id="linkedin" src="linkedin.png" />
+                    <Image src="linkedin.png" alt = "" />
                 </a>
+                </div>
                 <a className="contact-link" href="https://www.linkedin.com/in/elliott-rodden">  elliott-rodden</a>
             </div>
             <br></br>
             <div className="contact-box">
+                <div id = "email">
                 <a href="mailto:roddene1@gmail.com">
-                    <Image id="email" src="email.png" />
+                    <Image src="email.png" alt = "" />
                 </a>
+                </div>
                 <a className="contact-link" href="mailto:roddene1@gmail.com">roddene1@gmail.com</a>
             </div>
         </p>
