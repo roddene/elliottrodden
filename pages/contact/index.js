@@ -2,6 +2,7 @@
 
 import { Fragment } from 'react';
 import NavBar from '../components/navbar'
+import Image from 'next/image'
 
 function Contact() {
     return (<Fragment>
@@ -11,14 +12,14 @@ function Contact() {
         <p>
             <div className="contact-box">
                 <a href="https://www.linkedin.com/in/elliott-rodden">
-                    <img id="linkedin" src="linkedin.png" />
+                    <Image id="linkedin" src="linkedin.png" />
                 </a>
                 <a className="contact-link" href="https://www.linkedin.com/in/elliott-rodden">  elliott-rodden</a>
             </div>
             <br></br>
             <div className="contact-box">
                 <a href="mailto:roddene1@gmail.com">
-                    <img id="email" src="email.png" />
+                    <Image id="email" src="email.png" />
                 </a>
                 <a className="contact-link" href="mailto:roddene1@gmail.com">roddene1@gmail.com</a>
             </div>
