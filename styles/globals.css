@@ -1,0 +1,78 @@
+html,
+body {
+  background-color: rgb(204, 238, 238);
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+    
+}
+
+#__next{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.react-pdf__Document{
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+
+.navitem{
+  margin-top:20px;
+  margin-left: 10px;
+  margin-right:10px
+}
+
+.contact-link{
+  font-size: 27px;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#linkedin{
+  margin:24px;
+  width:40px;
+  height:40px;
+}
+#email{
+  margin: 20px;
+   width:47px;
+  height:47px;
+ 
+}
+
+.mainpic{
+  width:500px
+  
+}
+
+.contact-box{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
