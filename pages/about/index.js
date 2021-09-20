@@ -11,10 +11,10 @@ function About() {
         <NavBar></NavBar>
         <h1>About</h1>
         <p>
-            I was born in Raleigh North Carolina.
+            I was born in Raleigh, North Carolina.
         </p>
         <p>
-            I grew up in High Point North Carolina.
+            I grew up in High Point, North Carolina.
         </p>
         <p>
             I enjoy all types of programming but I spend most of my time web programming.
