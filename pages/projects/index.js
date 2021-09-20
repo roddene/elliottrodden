@@ -2,8 +2,10 @@
 import { Fragment } from 'react';
 import NavBar from '../components/navbar'
 import Image from 'next/image'
-import mandle from '../../public/mandlebrotviz.png'
-import spot from '../../public/spotifootube.png'
+import mandle from '../../public/mandlebrotviz.PNG'
+import spot from '../../public/spotifootube.PNG'
+
+
 function Projects() {
     return (<Fragment>
         <NavBar></NavBar>
@@ -18,7 +20,7 @@ function Projects() {
                 The project also uses JavaScript multithreading to imporve performance with up to 16 threads at the same time being usable.  
                 The window that displays the Mandelbrot and Julia Sets can also be resized for either more detail or faster calculations.</p>
                 <div className="projectimg">
-                    <Image src={mandle}></Image>
+                    <Image src={mandle} alt = ""></Image>
                 </div>
             </div>
             <br></br>
@@ -28,10 +30,10 @@ function Projects() {
                 Users can sign up to this website and then create as many playlists as they want and add as many songs as they want to each of their playlists.
                 The player can interact with the music by playing, pausing, repeating, skipping, and shuffling within the playlist or changing the volume up and down.  
                 Users can search Spotify for songs that they want to add to their playlist and a custom database will store their selections for them to come back to.
-                
+
                 </p>
                 <div className="projectimg">
-                    <Image className="projectimg" src={spot}></Image>
+                    <Image className="projectimg" src={spot} alt = ""></Image>
                 </div>
             </div>
         </div>
