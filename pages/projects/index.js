@@ -28,6 +28,7 @@ function Projects() {
                 Users can sign up to this website and then create as many playlists as they want and add as many songs as they want to each of their playlists.
                 The player can interact with the music by playing, pausing, repeating, skipping, and shuffling within the playlist or changing the volume up and down.  
                 Users can search Spotify for songs that they want to add to their playlist and a custom database will store their selections for them to come back to.
+                
                 </p>
                 <div className="projectimg">
                     <Image className="projectimg" src={spot}></Image>
