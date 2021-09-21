@@ -13,10 +13,10 @@ function Projects() {
         <div className="projects">
             <a className="projtitle" href="https://mandelbrot-viewer.herokuapp.com/">Mandelbrot Viewer</a>
             <div className="project">
-                <p className="projdesc">This project uses complex algebra to generate an interactive Mandelbrot Set visualization.  
+                <p className="projdesc">This project uses complex algebra to generate an interactive Mandelbrot set visualization.  
                 For each point on the coordinate plane, it iterates over that point up to 1,000 times to see if the iteration goes to infinity or not.
                 If it does not, it is considered part of the Mandelbrot set and its color corresponds to how many iterations it took before it shot off to infinity.
-                There is also another interactive image of the Julia Set, which corresponds to a particular point within the Mandelbrot set.  
+                There is also another interactive image of the Julia set, which corresponds to a particular point within the Mandelbrot set.  
                 The project also uses JavaScript multithreading to improve performance with up to 16 threads at the same time being usable.  
                 The window that displays the Mandelbrot and Julia Sets can also be resized for either more detail or faster calculations.</p>
                 <div className="projectimg">
